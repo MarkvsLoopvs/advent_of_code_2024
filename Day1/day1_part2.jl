@@ -5,7 +5,11 @@ lists = readdlm("input.txt", Int64)
 left_list = lists[:, 1]
 right_list = lists[:, 2]
 
-sort!(left_list)
-sort!(right_list)
+similarity_score = 0
 
-total_distance = sum(abs.(left_list .- right_list))
+for element in left_list
+    count = sum(right_list .== element) 
+    global similarity_score += element * count
+end
+
+println(similarity_score)
