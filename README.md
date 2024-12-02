@@ -1,2 +1,4 @@
 # Advent of Code 2024
-Попытки решить AoC 2024 изучая Julia
+Попытки изучить Julia решая Advent of Code!
+- [Advent of Code](https://adventofcode.com/)
+- [Julia](https://github.com/JuliaLang/julia)
