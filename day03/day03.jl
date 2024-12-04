@@ -7,7 +7,7 @@ total_sum = 0
 total_sum_enabled = 0
 enabled = true
 
-for match in eachmatch(pattern, input)
+for match in eachmatch(mul_pattern, input)
     x = parse(Int, match.captures[1]) 
     y = parse(Int, match.captures[2])  
     global total_sum += x * y
