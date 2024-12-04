@@ -21,7 +21,6 @@ function find_xmas(matrix, dx, dy)
     return count
 end
 
-
 function find_x_mas(matrix, i, j)
     count = 0
     if matrix[i][j] == 'A'
